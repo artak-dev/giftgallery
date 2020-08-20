@@ -1,0 +1,73 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.filtr-standard,.filtr-high,.filtr-low{
+	cursor: pointer;
+}
+.delete-product-on-car{
+	cursor: pointer;
+}
+.delete-product-on-cart img{
+	cursor: pointer;
+	float: right;
+}
+
+.total-price{
+	display: none;
+}
+
+#notes{
+	resize: none;
+}
+.pay_cash{
+	display: inline-block;
+}
+.choose-paymenth-type-text{
+	margin-bottom: 30px;
+}
+.checkout-btn-num-product-down, .checkout-btn-num-product-up{
+
+    width: 45px;
+    height: 100%;
+    cursor: pointer;
+}
+.old-price,.old-price-modal{
+	text-decoration: line-through;
+	text-decoration-color: red;
+	font-size: 12px;
+}
+.sale{
+	color: green;
+}
+.clearSection{
+	width: 100%;
+	height: 100px;
+}
+.filters-btn{
+	cursor: pointer;
+}
+.loading{
+	width: 100%;
+    height: 100%;
+    background-color: #0000001f;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-image: url('/assets/images/icons/preloader.gif');
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+.isotope-grid{
+	position: relative;
+}
